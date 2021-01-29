@@ -1,30 +1,29 @@
-/*document.getElementById('case-increase').addEventListener('click', function() {
-    handleProductChange(true);
-});
+// document.getElementById('case-increase').addEventListener('click', function() {
+//     handleProductChange(true);
+// });
 
-document.getElementById('case-decrease').addEventListener('click', function() {
-    handleProductChange(false);
-});
+// document.getElementById('case-decrease').addEventListener('click', function() {
+//     handleProductChange(false);
+// });
+
 
 function handleProductChange(isIncrease) {
     const caseInput = document.getElementById('case-count');
     const caseCount = parseInt(caseInput.value);
     let caseNewCount = caseCount;
     if (isIncrease == true) {
-        const caseNewCount = caseCount + 1;
+        caseNewCount = caseCount + 1;
     }
     if (isIncrease == false && caseCount > 0) {
-        const caseNewCount = caseCount - 1;
+        caseNewCount = caseCount - 1;
     }
     caseInput.value = caseNewCount;
     const caseTotal = caseNewCount * 59;
     document.getElementById('case-total').innerText = '$' + caseTotal;
 }
 
-different way
-*/
 
-
+//easy way
 
 // -----> For Increase
 // document.getElementById('case-increase').addEventListener('click', function() {
